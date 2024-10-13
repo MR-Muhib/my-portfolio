@@ -1,0 +1,17 @@
+.home__card__div {
+  padding: 0.5rem 4rem;
+}
+.homecard__pera {
+  color: #7a7d80;
+  margin: 1.8rem 0;
+  text-transform: uppercase;
+}
+.homecard__title {
+  color: #ff014f;
+}
+.home__card__desc {
+  text-align: justify;
+  line-height: 1.5rem;
+  color: #41525f;
+  margin-top: 1.3rem;
+}

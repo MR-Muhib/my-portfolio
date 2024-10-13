@@ -1,0 +1,30 @@
+.social__links__div {
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+  text-align: center;
+  line-height: 2rem;
+  padding: 0 4rem;
+}
+.social__title {
+  color: #333;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+}
+.social__links {
+  padding: 1rem 1rem;
+  display: inline-block;
+  margin: 1rem 1rem;
+  background: #f5f7f8;
+  text-align: center;
+  border-radius: 0.5rem;
+  box-shadow: 2px 4px 4px gray;
+}
+.social__links:hover {
+  background-color: #e33448;
+}
+.social__link {
+  color: black;
+  font-weight: bold;
+  font-size: 1.3rem;
+}

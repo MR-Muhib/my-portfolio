@@ -1,0 +1,39 @@
+.experience {
+  margin-bottom: 5rem;
+}
+.experience__title {
+  color: rgb(201, 42, 42);
+  padding: 0 4rem;
+}
+
+.experience__links {
+  width: 100%;
+  padding: 1rem 0;
+  background-color: #f0f3f5;
+  margin: 1rem 0.5rem;
+  display: block;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 1rem;
+  box-shadow: 2px 4px 4px gray;
+  border-radius: 0.3rem;
+}
+
+.experience__links:hover {
+  background-color: #ffffff;
+  color: red;
+}
+
+@media only screen and (min-width: 768px) {
+  .experience__links {
+    display: inline-block;
+    align-items: center;
+  }
+
+  .experience__links__div {
+    width: 100%;
+    display: flex;
+    padding: 1rem 4rem;
+  }
+}

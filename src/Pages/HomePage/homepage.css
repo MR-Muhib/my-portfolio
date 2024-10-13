@@ -1,0 +1,16 @@
+.main__container {
+  background-color: #ecf0f3;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+.image__background > img {
+  filter: drop-shadow(2px 2px 2px #d3a900);
+}
+/* .image__background {
+  margin-top: 1.5rem;
+  border-radius: 1.5rem;
+  box-shadow: 2px 4px 4px white;
+  background-color: #fefefe;
+} */
