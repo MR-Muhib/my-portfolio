@@ -1,7 +1,8 @@
-.animation__div {
-  margin-left: 5rem;
-  margin-right: 15rem;
+.animations__full__div {
+  width: 768px;
+  margin: 2rem auto;
 }
+
 .images__all {
   width: 22rem;
   height: 15rem;
@@ -14,10 +15,9 @@
 }
 .Features {
   color: #ff014f;
-  padding-left: 4rem;
 }
 .what_i_do {
   color: #3c3e41;
   font-size: 2rem;
-  padding-left: 4rem;
+  margin-bottom: 2rem;
 }

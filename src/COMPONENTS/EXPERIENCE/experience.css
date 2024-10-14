@@ -1,9 +1,18 @@
+.experience__links__div {
+  margin-top: 2rem;
+}
 .experience {
   margin-bottom: 5rem;
 }
 .experience__title {
   color: rgb(201, 42, 42);
   padding: 0 4rem;
+  text-align: center;
+}
+
+.resume {
+  font-size: 2.5rem;
+  text-align: center;
 }
 
 .experience__links {

@@ -1,7 +1,7 @@
 import React from "react";
 import image from "../image/Muhib-Photo.png";
 import "./Navcard.css";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Navcard = () => {
   return (
@@ -15,12 +15,21 @@ const Navcard = () => {
         frameworks such as Bootstrap and Laravel.
       </p>
       <div className="aside__links">
-        <a className="links" href="#">Home</a>
-        <a className="links" href="#">Features</a>
-        <a className="links" href="#">Portfolio</a>
-        <a className="links" href="#">Resume</a>
-        <a className="links" href="#">blog</a>
-        <a className="links" href="#">Contact</a>
+        <Link to="/" className="links">
+          Home
+        </Link>
+        <Link to="/features" className="links">
+          Features
+        </Link>
+        <Link to="/resume" className="links">
+          Resume
+        </Link>
+        <Link to="/blog" className="links">
+          blog
+        </Link>
+        <Link to="/contact" className="links">
+          Contact
+        </Link>
       </div>
     </div>
   );

@@ -12,9 +12,7 @@
   letter-spacing: 0.3rem;
 }
 .social__links {
-  padding-top: 1.5rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding: 1.5rem;
   display: inline-block;
   margin: 1rem 1rem;
   background: #f5f7f8;

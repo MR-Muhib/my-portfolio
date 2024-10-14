@@ -4,7 +4,7 @@ import Marquee from "react-fast-marquee";
 
 const Animations = () => {
   return (
-    <>
+    <div className="animations__full__div">
       <p className="Features">Features</p>
       <h3 className="what_i_do">What I Do</h3>
       <Marquee className="animation__div">
@@ -46,7 +46,7 @@ const Animations = () => {
           </div>
         </div>
       </Marquee>
-    </>
+    </div>
   );
 };
 

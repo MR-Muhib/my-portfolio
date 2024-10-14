@@ -1,0 +1,15 @@
+.btn__div {
+  margin: 2.5rem 1rem;
+}
+.back__btn {
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  background-color: purple;
+  color: white;
+  font-weight: 600;
+  border-radius: 1rem;
+  transition: 0.5s;
+}
+.back__btn:hover {
+  background-color: #fb3471;
+}

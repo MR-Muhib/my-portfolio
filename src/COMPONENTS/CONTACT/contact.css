@@ -1,0 +1,80 @@
+.contact__div {
+  padding-top: 7rem;
+  padding-left: 2rem;
+}
+.contact__card {
+  width: 768px;
+  height: auto;
+  margin: 0 auto;
+  background-color: #eff2f5;
+  padding: 1rem;
+  border-radius: 0.8rem;
+  box-shadow: 2px 4px 4px white;
+  margin-bottom: 2rem;
+  color: #535558;
+  line-height: 2rem;
+}
+.contact__img {
+  display: block;
+  margin: 2rem auto;
+  border-radius: 0.8rem;
+  box-shadow: 2px 4px 4px gray;
+}
+.contact__title {
+  color: #000;
+  margin: 1rem 0;
+}
+
+.contact__form {
+  width: 768px;
+  height: auto;
+  background-color: #e8edf0;
+  margin: 0 auto;
+  border-radius: 0.8rem;
+  padding: 1.5rem;
+}
+.contact__input__div {
+  margin: 1.5rem 0;
+}
+.contact__input__div > input {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  outline: none;
+  border: 2px solid #dadada;
+  border-radius: 0.2rem;
+}
+.contact__labels {
+  display: block;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+textarea {
+  resize: both;
+  overflow: auto;
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.3rem;
+}
+.contact__button {
+  width: 100%;
+  padding: 0.5rem 0;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  background-color: #fcfcfd;
+  text-transform: uppercase;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.contact__button::after {
+  content: "→";
+  font-size: large;
+  margin-left: 0.5rem;
+  font-weight: bold;
+}
+.contact__button:hover {
+  background-color: #e31632;
+  color: white;
+}

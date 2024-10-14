@@ -17,7 +17,6 @@ const Homecard = () => {
         NodeJS, ExpressJS, and MongoDB. I am also familiar with popular
         frameworks such as Bootstrap and Laravel.
       </p>
-  
     </div>
   );
 };

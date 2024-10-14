@@ -6,6 +6,7 @@
   padding: 0.5rem 1.5rem;
   position: absolute;
   z-index: 1000;
+  margin-bottom: 2rem;
 }
 .card__image {
   width: 100px;

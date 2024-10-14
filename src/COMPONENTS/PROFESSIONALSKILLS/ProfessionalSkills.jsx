@@ -57,13 +57,16 @@ const ProfessionalSkills = () => {
           <div className="parent__bar__db">
             <div className="child__bar__db"></div>
           </div>
-          <h3>
-            Further Extra capabilities include various frameworks such as
-            Tailwind CSS and bootstrap.
-          </h3>
-          <Link className="homepage__btn" to="/">Go to home pages</Link>
         </div>
       </div>
+
+      <h3 className="footer__title">
+        Further Extra capabilities include various frameworks such as Tailwind
+        CSS and bootstrap.
+      </h3>
+      <Link className="homepage__btn" to="/">
+        Go to home pages
+      </Link>
     </div>
   );
 };
