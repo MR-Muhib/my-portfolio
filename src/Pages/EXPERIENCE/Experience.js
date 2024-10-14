@@ -10,7 +10,7 @@ const Experience = () => {
         <NavLink className="experience__links" to="#">
           Education
         </NavLink>
-        <NavLink className="experience__links" to="#">
+        <NavLink className="experience__links" to="/ProfessionalSkills">
           Professional Skills
         </NavLink>
         <NavLink className="experience__links" to="#">

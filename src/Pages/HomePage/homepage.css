@@ -4,8 +4,10 @@
   margin: 0 auto;
   align-items: center;
   justify-content: center;
+  
 }
 .image__background > img {
+  margin-top: 5rem;
   filter: drop-shadow(2px 2px 2px #d3a900);
 }
 /* .image__background {

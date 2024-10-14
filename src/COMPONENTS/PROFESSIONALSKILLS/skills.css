@@ -1,0 +1,271 @@
+.skills__div {
+  padding: 0 1rem;
+  margin-bottom: 3rem;
+}
+
+.skills__title {
+  margin-bottom: 2.5rem;
+}
+.skills__pera {
+  color: #f45588;
+  font-size: 14px;
+  font-style: italic;
+}
+.skills__pera {
+  font-family: sans-serif;
+}
+.skills__bir__title {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 5px;
+  color: #676262;
+  font-weight: bold;
+  line-height: 0rem;
+}
+
+.skills__bir__title::after {
+  content: "90%";
+  font-size: 1rem;
+  float: right;
+  color: #676262;
+  padding-right: 10%;
+}
+.parent__bar {
+  width: 100%;
+  height: 7px;
+  margin-bottom: 2.5rem;
+  border: 1px solid #dce1e4;
+  background-color: #dce1e4;
+  border-radius: 10px;
+}
+
+.child__bar {
+  width: 90%;
+  height: 7px;
+  background-image: linear-gradient(to right, #fffafc, #ff0a55);
+  border-radius: 10px;
+}
+
+/* Css bar */
+
+.skills__bir__title__css {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 5px;
+  color: #676262;
+  font-weight: bold;
+  line-height: 0rem;
+}
+
+.skills__bir__title__css::after {
+  content: "82%";
+  font-size: 1rem;
+  float: right;
+  color: #676262;
+  padding-right: 16%;
+}
+.parent__bar__css {
+  width: 100%;
+  height: 7px;
+  margin-bottom: 2.5rem;
+  border: 1px solid #dce1e4;
+  background-color: #dce1e4;
+  border-radius: 10px;
+}
+
+.child__bar__css {
+  width: 82%;
+  height: 7px;
+  background-image: linear-gradient(to right, #fffafc, #ff0a55);
+  border-radius: 10px;
+}
+
+/* JavaScript bar */
+
+.skills__bir__title__js {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 5px;
+  color: #676262;
+  font-weight: bold;
+  line-height: 0rem;
+}
+
+.skills__bir__title__js::after {
+  content: "70%";
+  font-size: 1rem;
+  float: right;
+  color: #676262;
+  padding-right: 30%;
+}
+.parent__bar__js {
+  width: 100%;
+  height: 7px;
+  margin-bottom: 2.5rem;
+  border: 1px solid #dce1e4;
+  background-color: #dce1e4;
+  border-radius: 10px;
+}
+
+.child__bar__js {
+  width: 70%;
+  height: 7px;
+  background-image: linear-gradient(to right, #fffafc, #ff0a55);
+  border-radius: 10px;
+}
+
+/* React bar */
+
+.skills__bir__title__react {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 5px;
+  color: #676262;
+  font-weight: bold;
+  line-height: 0rem;
+}
+
+.skills__bir__title__react::after {
+  content: "80%";
+  font-size: 1rem;
+  float: right;
+  color: #676262;
+  padding-right: 20%;
+}
+.parent__bar__react {
+  width: 100%;
+  height: 7px;
+  margin-bottom: 2.5rem;
+  border: 1px solid #dce1e4;
+  background-color: #dce1e4;
+  border-radius: 10px;
+}
+
+.child__bar__react {
+  width: 80%;
+  height: 7px;
+  background-image: linear-gradient(to right, #fffafc, #ff0a55);
+  border-radius: 10px;
+}
+
+/* NodeJS bar */
+
+.skills__bir__title__nodejs {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 5px;
+  color: #676262;
+  font-weight: bold;
+  line-height: 0rem;
+}
+
+.skills__bir__title__nodejs::after {
+  content: "60%";
+  font-size: 1rem;
+  float: right;
+  color: #676262;
+  padding-right: 40%;
+}
+.parent__bar__nodejs {
+  width: 100%;
+  height: 7px;
+  margin-bottom: 2.5rem;
+  border: 1px solid #dce1e4;
+  background-color: #dce1e4;
+  border-radius: 10px;
+}
+
+.child__bar__nodejs {
+  width: 60%;
+  height: 7px;
+  background-image: linear-gradient(to right, #fffafc, #ff0a55);
+  border-radius: 10px;
+}
+
+/* ExpressJS bar */
+
+.skills__bir__title__express {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 5px;
+  color: #676262;
+  font-weight: bold;
+  line-height: 0rem;
+}
+
+.skills__bir__title__express::after {
+  content: "65%";
+  font-size: 1rem;
+  float: right;
+  color: #676262;
+  padding-right: 35%;
+}
+.parent__bar__express {
+  width: 100%;
+  height: 7px;
+  margin-bottom: 2.5rem;
+  border: 1px solid #dce1e4;
+  background-color: #dce1e4;
+  border-radius: 10px;
+}
+
+.child__bar__express {
+  width: 65%;
+  height: 7px;
+  background-image: linear-gradient(to right, #fffafc, #ff0a55);
+  border-radius: 10px;
+}
+
+/* Mongodb bar */
+
+.skills__bir__title__db {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 5px;
+  color: #676262;
+  font-weight: bold;
+  line-height: 0rem;
+}
+
+.skills__bir__title__db::after {
+  content: "80%";
+  font-size: 1rem;
+  float: right;
+  color: #676262;
+  padding-right: 18%;
+}
+.parent__bar__db {
+  width: 100%;
+  height: 7px;
+  margin-bottom: 2.5rem;
+  border: 1px solid #dce1e4;
+  background-color: #dce1e4;
+  border-radius: 10px;
+}
+
+.child__bar__db {
+  width: 80%;
+  height: 7px;
+  background-image: linear-gradient(to right, #fffafc, #ff0a55);
+  border-radius: 10px;
+}
+.homepage__btn{
+  display: inline-block;
+  background-color: purple;
+  color: white;
+  padding: 0.7rem 2rem;
+  border-radius: 2rem;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .skills__div{
+    padding: 0 4rem;
+  }
+  .professional__skills{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 2rem;
+  }
+}

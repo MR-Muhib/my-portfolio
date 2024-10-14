@@ -1,0 +1,23 @@
+.animation__div {
+  margin-left: 5rem;
+  margin-right: 15rem;
+}
+.images__all {
+  width: 22rem;
+  height: 15rem;
+  margin-left: 1rem;
+  border-radius: 1rem;
+  box-shadow: 2px 4px 4px gray;
+}
+.images__div {
+  display: flex;
+}
+.Features {
+  color: #ff014f;
+  padding-left: 4rem;
+}
+.what_i_do {
+  color: #3c3e41;
+  font-size: 2rem;
+  padding-left: 4rem;
+}

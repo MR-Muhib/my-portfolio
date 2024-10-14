@@ -1,7 +1,7 @@
 import React from "react";
 import photo from "../image/muhib_photo.PNG";
 import "./homepage.css";
-import Homecard from "../../COMPONENTS/HOME/Homecard";
+import Homecard from "../../COMPONENTS/SOCIALLINKS/Homecard";
 const Homepage = () => {
   return (
     <>

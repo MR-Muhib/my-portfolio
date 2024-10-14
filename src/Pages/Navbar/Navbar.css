@@ -6,6 +6,7 @@
   justify-content: space-between;
   padding-right: 2rem;
   box-sizing: border-box;
+  background-color: #fff;
 }
 .logo_image {
   width: 4.8rem;
@@ -16,6 +17,7 @@
   background-color: #212428;
   margin-left: 20px;
   margin-top: 0.5rem;
+  
 }
 .fa_justify {
   font-size: 1.8rem;
