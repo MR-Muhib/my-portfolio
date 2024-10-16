@@ -5,6 +5,8 @@ import ProfessionalSkills from "./COMPONENTS/PROFESSIONALSKILLS/ProfessionalSkil
 import Homepage from "./Pages/HomePage/Homepage";
 import Educations from "./COMPONENTS/EDUCATIONS/Educations";
 import Contact from "./COMPONENTS/CONTACT/Contact";
+import Resume from "./COMPONENTS/RESUME/Resume";
+
 function App() {
   return (
     <BrowserRouter>
@@ -14,6 +16,7 @@ function App() {
         <Route path="/ProfessionalSkills" element={<ProfessionalSkills />} />
         <Route path="/Educations" element={<Educations />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/resume" element={<Resume />} />
       </Routes>
     </BrowserRouter>
   );

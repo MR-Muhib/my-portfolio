@@ -1,0 +1,143 @@
+.resume__div {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  padding-top: 10rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+.resume__hader {
+  width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  margin-bottom: 2rem;
+}
+.resume__photo {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  border: 1px solid #8a7c7c3f;
+  display: inline-block;
+  float: left;
+}
+.resume__title {
+  display: inline-block;
+  color: #333;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+}
+.resume__subtitle {
+  display: block;
+  color: #333;
+  font-size: 1rem;
+  margin-left: 5rem;
+}
+
+.resume__container {
+  width: 100%;
+  height: auto;
+  margin-top: 2rem;
+  padding: 2rem;
+  background-color: #f8f8f8;
+  border-radius: 0.8rem;
+  box-shadow: 2px 2px 2px #333;
+}
+
+.resume__education {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 2px 2px 2px gray;
+  margin: 1rem 0;
+}
+.resume__education {
+  margin-bottom: 1.5rem;
+  line-height: 1.5rem;
+  .resume__education__disc,
+  .resume__education__university,
+  .resume__education__university {
+    padding-left: 1rem;
+    margin-top: 1rem;
+  }
+}
+
+.resume__education__experts {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 2px 2px 2px gray;
+  margin-bottom: 1.5rem;
+}
+.resume__education__disc {
+  padding-left: 1rem;
+  line-height: 1.5rem;
+  margin-top: 1rem;
+}
+
+/* Right Div */
+.resume__content {
+  margin-top: 2rem;
+}
+.resume__content__disc {
+  margin-top: 1rem;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  text-align: justify;
+}
+
+.categories {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  margin-top: 3rem;
+}
+.categories__title {
+  text-transform: uppercase;
+  color: purple;
+}
+.categories:hover {
+  border: 1px solid #000;
+}
+.categories__list {
+  padding-left: 2.5rem;
+  margin-top: 1rem;
+}
+.service {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+}
+.service:hover {
+  border: 1px solid #000;
+}
+
+.service__title {
+  text-transform: uppercase;
+  color: purple;
+}
+.service__list {
+  padding-left: 2.5rem;
+  margin-top: 1rem;
+}
+.contacts__container {
+  margin: 2rem 0;
+  .contacts__section {
+    padding: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+}
+@media screen and (min-width: 768px) {
+  .resume__container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+}
