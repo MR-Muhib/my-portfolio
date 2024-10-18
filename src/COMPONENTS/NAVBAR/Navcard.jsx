@@ -18,9 +18,7 @@ const Navcard = () => {
         <Link to="/" className="links">
           Home
         </Link>
-        <Link to="/features" className="links">
-          Features
-        </Link>
+
         <Link to="/resume" className="links">
           Resume
         </Link>

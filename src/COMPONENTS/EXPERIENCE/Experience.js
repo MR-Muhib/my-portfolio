@@ -1,6 +1,7 @@
 import React from "react";
 import "./experience.css";
 import { NavLink } from "react-router-dom";
+import ContactForm from "../CONTACT/ContactForm";
 
 const Experience = () => {
   return (
@@ -21,6 +22,8 @@ const Experience = () => {
           Interview
         </NavLink>
       </div>
+
+      <ContactForm />
     </div>
   );
 };
