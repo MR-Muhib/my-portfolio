@@ -1,5 +1,5 @@
 .animations__full__div {
-  width: 768px;
+  max-width: 768px;
   margin: 2rem auto;
 }
 

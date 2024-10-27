@@ -1,4 +1,4 @@
-import { FaAlignJustify } from "react-icons/fa6";
+import { FaAlignJustify, FaBarsStaggered } from "react-icons/fa6";
 import image from "../image/Muhib-Photo.png";
 import "./Navbar.css";
 import Navcard from "../../COMPONENTS/NAVBAR/Navcard";
@@ -10,7 +10,8 @@ const Navbar = () => {
   const sidebarRef = useRef(null);
 
   const toggleSidebar = () => {
-    setIsOpen((prev) => !prev);
+    // setIsOpen((prev) => !prev);
+    setIsOpen(true);
   };
 
   const handleClickOutside = (event) => {
@@ -27,6 +28,7 @@ const Navbar = () => {
     };
   }, []);
 
+  // <FaBarsStaggered />
   return (
     <>
       <div className="navbar__div">
@@ -37,7 +39,7 @@ const Navbar = () => {
         )}
         <img className="logo_image" src={image} alt="logo__image" />
         <div className="fa_justify" onClick={toggleSidebar}>
-          {isOpen ? <FaAlignJustify /> : <FaAlignJustify />}
+          {isOpen ? <FaBarsStaggered /> : <FaAlignJustify />}
         </div>
       </div>
     </>
